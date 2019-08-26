@@ -1,0 +1,22 @@
+{
+  "name": "serverless-ecommerce",
+  "version": "1.0.0",
+  "description": "A simple ecommerce website with serverless functions and static generation",
+  "author": "Pierre GOLFIER",
+  "private": true,
+  "scripts": {
+    "dev": "env-cmd --file ./.config/dev.env nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "bulma": "^0.7.5",
+    "nuxt": "^2.0.0"
+  },
+  "devDependencies": {
+    "env-cmd": "^9.0.3",
+    "node-sass": "^4.12.0",
+    "sass-loader": "^7.3.1"
+  }
+}
