@@ -9,3 +9,13 @@ body {
 * {
   font-family: "PT Serif", serif;
 }
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}
