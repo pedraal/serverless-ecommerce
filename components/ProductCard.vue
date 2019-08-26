@@ -14,7 +14,7 @@
           </div>
         </div>
         <div class="level-item">
-          <button class="button">
+          <button class="button is-primary">
             <span class="icon">
               <i class="fas fa-search"></i>
             </span>

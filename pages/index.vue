@@ -23,7 +23,7 @@
         <div class="columns">
           <div class="column flex is-4">
             <div class="service-wrapper has-text-centered">
-              <span class="icon">
+              <span class="icon has-text-primary">
                 <i class="fas fa-truck"></i>
               </span>
               <p class="heading is-size-4">FAST & FREE</p>
@@ -32,7 +32,7 @@
           </div>
           <div class="column flex is-4">
             <div class="service-wrapper has-text-centered">
-              <span class="icon">
+              <span class="icon has-text-primary">
                 <i class="fas fa-undo"></i>
               </span>
               <p class="heading is-size-4">EASY</p>
@@ -41,7 +41,7 @@
           </div>
           <div class="column flex is-4">
             <div class="service-wrapper has-text-centered">
-              <span class="icon">
+              <span class="icon has-text-primary">
                 <i class="fas fa-concierge-bell"></i>
               </span>
               <p class="heading is-size-4">24/7</p>
@@ -54,12 +54,12 @@
     <div class="h-separator"></div>
     <section class="section sales">
       <div class="display">
-        <h2 class="title has-text-weight-light is-size-1 has-text-grey-lighter">
+        <h2 class="title has-text-weight-light is-size-1 has-text-white-bis">
           Summersales
           <br />
-          <span class="has-text-grey-light is-size-2">on every chairs</span>
+          <span class="has-text-white-bis is-size-2">on every chairs</span>
         </h2>
-        <p id="discount">50%</p>
+        <p id="discount" class="has-text-primary">50%</p>
       </div>
       <img src="/pictures/chairs.jpg" alt="chairs" />
     </section>
@@ -97,13 +97,13 @@
                         <strong>Jane Doe</strong>
                         <br />
                         <span class="icon">
-                          <span class="fas fa-quote-left"></span>
+                          <span class="fas fa-quote-left has-text-primary"></span>
                         </span>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, dignissimos.
                         <span
                           class="icon"
                         >
-                          <span class="fas fa-quote-right"></span>
+                          <span class="fas fa-quote-right has-text-primary"></span>
                         </span>
                       </p>
                     </div>
@@ -121,13 +121,13 @@
                         <strong>Adam Johnson</strong>
                         <br />
                         <span class="icon">
-                          <span class="fas fa-quote-left"></span>
+                          <span class="fas fa-quote-left has-text-primary"></span>
                         </span>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae molestiae perferendis sed veniam. Eligendi, consequuntur in?
                         <span
                           class="icon"
                         >
-                          <span class="fas fa-quote-right"></span>
+                          <span class="fas fa-quote-right has-text-primary"></span>
                         </span>
                       </p>
                     </div>
@@ -147,13 +147,13 @@
                         <strong>Elena Bale</strong>
                         <br />
                         <span class="icon">
-                          <span class="fas fa-quote-left"></span>
+                          <span class="fas fa-quote-left has-text-primary"></span>
                         </span>
                         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque culpa velit quaerat sint labore quidem tenetur optio tempore eaque, officiis eligendi in at facilis molestiae quos soluta nobis doloremque debitis quis, magnam dolorem iure saepe ab facere! Sapiente, impedit qui reiciendis quibusdam dignissimos, aspernatur voluptas aut molestiae iure delectus laboriosam fugiat facere beatae porro iste dolore eius eligendi omnis mollitia ea sunt tempora! Reprehenderit deserunt laboriosam inventore laborum aspernatur temporibus officiis fugiat praesentium, excepturi expedita, quasi vero dolore beatae! Exercitationem!
                         <span
                           class="icon"
                         >
-                          <span class="fas fa-quote-right"></span>
+                          <span class="fas fa-quote-right has-text-primary"></span>
                         </span>
                       </p>
                     </div>
@@ -174,13 +174,13 @@
                       <strong>John Smith</strong>
                       <br />
                       <span class="icon">
-                        <span class="fas fa-quote-left"></span>
+                        <span class="fas fa-quote-left has-text-primary"></span>
                       </span>
                       Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque eveniet nam sequi ipsam nobis fugit corrupti facilis sit tenetur, quas nostrum vero repudiandae ut quaerat aliquam sed et quos ex corporis quisquam optio cumque. Voluptas quaerat fugit doloremque deserunt, autem harum repellat numquam blanditiis temporibus eius animi velit asperiores dolore?
                       <span
                         class="icon"
                       >
-                        <span class="fas fa-quote-right"></span>
+                        <span class="fas fa-quote-right has-text-primary"></span>
                       </span>
                     </p>
                   </div>

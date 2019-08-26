@@ -41,8 +41,11 @@ nav {
       color: rgb(93, 93, 93);
     }
     &.active {
-      border-bottom: 1px solid black;
+      color: hsl(171, 100%, 41%);
+
+      border-bottom: 1px solid hsl(171, 100%, 41%);
       &:hover {
+        color: #363636;
         border-bottom: 1px solid rgb(93, 93, 93);
       }
     }
