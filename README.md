@@ -1,8 +1,6 @@
-# serverless-ecommerce
+# Serverless e-commerce website
 
 > A simple ecommerce website with serverless functions and static generation
-
-# Serverless e-commerce website
 
 This site is a demonstration project for my portfolio. The goal of this project is to develop a simple e-commerce website using Nuxt.js for static website generation, Stripe as payment API and netlify for hosting, serverless functions and form submission. No database is used because this project is a one-shot meaning its meant to be kept simple. To store our products, the vuex store is initialized holding product objects.
 
