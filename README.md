@@ -28,10 +28,11 @@ This website should have a nice header with a hero picture, some basic text to i
 The footer embeds an alternative nav menu, some social media links and a newsletter input.
 
 The home page has to hold: 
-- A product of the week 
-- Some sales 
+- A quick presentation paragraph 
 - Extra services (like quick delivery, customer service, etc.) 
-- Testimonials
+- Some sales
+- Some featured articles
+- Testimonial
 
 The website will display products into category pages and they will have a single product page.
 
