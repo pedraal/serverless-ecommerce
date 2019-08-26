@@ -27,13 +27,19 @@ This site is a demonstration project for my portfolio. The goal of this project 
 This website should have a nice header with a hero picture, some basic text to introduce the fake brand and a navbar.
 The footer embeds an alternative nav menu, some social media links and a newsletter input.
 
-The home page has to hold: - A product of the week - Some sales - Extra services (like quick delivery, customer service, etc.) - Testimonials
+The home page has to hold: 
+- A product of the week 
+- Some sales 
+- Extra services (like quick delivery, customer service, etc.) 
+- Testimonials
 
 The website will display products into category pages and they will have a single product page.
 
 It should also have a cart and checkout page.
 
-The following pages will appear somewhere in a nav menu but will not be included at the moment in the project: - "About us" - Contact
+The following pages will appear somewhere in a nav menu but will not be included at the moment in the project: 
+- "About us" 
+- Contact
 
 ## Learning purposes
 
