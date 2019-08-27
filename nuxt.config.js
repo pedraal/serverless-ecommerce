@@ -15,6 +15,11 @@ export default {
       {
         rel: "stylesheet",
         href: "https://use.fontawesome.com/releases/v5.2.0/css/all.css"
+      },
+      {
+        rel: "stylesheet",
+        href:
+          "https://fonts.googleapis.com/css?family=Lexend+Tera|Montserrat|Open+Sans+Condensed:300|PT+Serif|Parisienne&display=swap"
       }
     ]
   },
