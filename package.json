@@ -12,7 +12,8 @@
   },
   "dependencies": {
     "bulma": "^0.7.5",
-    "nuxt": "^2.0.0"
+    "nuxt": "^2.0.0",
+    "vue-star-rating": "^1.6.1"
   },
   "devDependencies": {
     "env-cmd": "^9.0.3",
