@@ -6,30 +6,35 @@
       </figure>
     </div>
     <div class="card-content">
-      <div class="level">
-        <div class="level-item">
+      <div class="columns is-multiline is-vcentered is-centered">
+        <div class="column is-12">
           <div class="has-text-centered">
             <p class="title is-4 is-uppercase has-text-weight-light">{{product.name}}</p>
             <p class="subtitle is-6 has-text-weight-bold">{{product.price}}€</p>
           </div>
         </div>
-        <div class="level-item">
-          <star-rating
-            :rating="product.rating"
-            active-color="hsl(171, 100%, 41%)"
-            :star-size="15"
-            :read-only="true"
-            :show-rating="false"
-            style="margin: 5px 0"
-          ></star-rating>
+        <div class="column is-12">
+          <client-only>
+            <star-rating
+              :rating="product.rating"
+              active-color="hsl(171, 95%, 34%)"
+              :star-size="15"
+              :read-only="true"
+              :show-rating="false"
+              style="margin: 5px auto; width: 80px !important;"
+            ></star-rating>
+          </client-only>
         </div>
-        <div class="level-item">
-          <button class="button is-outlined is-primary">
+        <div class="column is-12 has-text-centered">
+          <nuxt-link
+            :to="`${product.category}/${product.id}`"
+            class="button is-outlined is-primary"
+          >
             <span class="icon">
               <i class="fas fa-search"></i>
             </span>
             <span>View product</span>
-          </button>
+          </nuxt-link>
         </div>
       </div>
     </div>

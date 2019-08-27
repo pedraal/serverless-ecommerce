@@ -1,4 +1,6 @@
-export const state = () => {}
+export const state = () => ({
+  products: []
+})
 
 export const mutations = {
   setProducts: (state, payload) => {

@@ -41,9 +41,9 @@ nav {
       color: rgb(93, 93, 93);
     }
     &.active {
-      color: hsl(171, 100%, 41%);
+      color: hsl(171, 95%, 34%);
 
-      border-bottom: 1px solid hsl(171, 100%, 41%);
+      border-bottom: 1px solid hsl(171, 95%, 34%);
       &:hover {
         color: #363636;
         border-bottom: 1px solid rgb(93, 93, 93);

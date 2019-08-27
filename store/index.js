@@ -1,9 +1,9 @@
-import products from "../data/products.js"
+import data from "../data/products.js"
 
 let request = () => {
   return new Promise((resolve, reject) => {
     setTimeout(() => {
-      resolve(products)
+      resolve(data.products)
     }, 500)
   })
 }
