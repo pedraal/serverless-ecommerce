@@ -18,7 +18,7 @@
               style="margin: 5px 0"
             ></star-rating>
           </client-only>
-          <p class="subtitle has-text-primary">{{product[0].price}}€</p>
+          <p class="subtitle has-text-primary">{{product[0].price | euro}}</p>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil placeat, magnam, error illum, molestiae saepe sequi similique velit facere nobis exercitationem sapiente corrupti? Labore sequi soluta est hic at illum perspiciatis possimus quo ullam dicta et commodi cupiditate eius corrupti sint, dolores officia reprehenderit ex provident! Laboriosam iure molestiae sint?</p>
           <div class="field has-addons">
             <p class="control">
@@ -31,7 +31,7 @@
               <a class="button is-primary" @click="increment">+</a>
             </p>
           </div>
-          <button class="button is-primary is-outlined">Add to cart</button>
+          <button class="button is-primary is-outlined" @click="addToCart">Add to cart</button>
         </div>
       </div>
     </div>
@@ -77,6 +77,12 @@ export default {
     },
     increment() {
       this.quantity++;
+    },
+    addToCart() {
+      let payload = this.product[0];
+      payload.quantity = this.quantity;
+      this.$store.commit("cart/addToCart", { ...payload });
+      this.quantity = 1;
     }
   }
 };
@@ -92,5 +98,8 @@ export default {
   height: 1px;
   background: #b9b4b4;
   margin: 20px auto;
+}
+.columns {
+  margin: 0;
 }
 </style>
