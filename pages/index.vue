@@ -69,10 +69,10 @@
         <h2 class="title has-text-weight-light has-text-centered">Featured products</h2>
         <div class="columns">
           <div class="column is-6">
-            <ProductCard :product="products.chairs[0]" />
+            <ProductCard :product="chairs[0]" />
           </div>
           <div class="column is-6">
-            <ProductCard :product="products.tables[0]" />
+            <ProductCard :product="tables[0]" />
           </div>
         </div>
       </div>
@@ -200,6 +200,16 @@ export default {
   computed: {
     products() {
       return this.$store.getters["products/products"];
+    },
+    chairs() {
+      return this.$store.getters["products/products"].filter(
+        product => product.category === "chairs"
+      );
+    },
+    tables() {
+      return this.$store.getters["products/products"].filter(
+        product => product.category === "tables"
+      );
     }
   },
   components: {
