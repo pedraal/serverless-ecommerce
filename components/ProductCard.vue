@@ -7,23 +7,25 @@
     </div>
     <div class="card-content">
       <div class="columns is-multiline is-vcentered is-centered">
-        <div class="column is-6-tablet is-4-widescreen">
+        <div class="column is-12">
           <div class="has-text-centered">
             <p class="title is-4 is-uppercase has-text-weight-light">{{product.name}}</p>
             <p class="subtitle is-6 has-text-weight-bold">{{product.price}}€</p>
           </div>
         </div>
-        <div class="column is-12-tablet is-4-widescreen">
-          <star-rating
-            :rating="product.rating"
-            active-color="hsl(171, 100%, 41%)"
-            :star-size="15"
-            :read-only="true"
-            :show-rating="false"
-            style="margin: 5px auto; width: 80px !important;"
-          ></star-rating>
+        <div class="column is-12">
+          <client-only>
+            <star-rating
+              :rating="product.rating"
+              active-color="hsl(171, 100%, 41%)"
+              :star-size="15"
+              :read-only="true"
+              :show-rating="false"
+              style="margin: 5px auto; width: 80px !important;"
+            ></star-rating>
+          </client-only>
         </div>
-        <div class="column is-12-tablet is-4-widescreen has-text-centered">
+        <div class="column is-12 has-text-centered">
           <button class="button is-outlined is-primary">
             <span class="icon">
               <i class="fas fa-search"></i>
