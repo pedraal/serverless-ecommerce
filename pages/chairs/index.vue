@@ -16,7 +16,9 @@ export default {
   },
   computed: {
     chairs() {
-      return this.$store.getters["products/products"].chairs;
+      return this.$store.getters["products/products"].filter(
+        product => product.category === "chairs"
+      );
     }
   }
 };

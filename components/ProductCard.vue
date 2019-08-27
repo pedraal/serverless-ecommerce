@@ -17,7 +17,7 @@
           <client-only>
             <star-rating
               :rating="product.rating"
-              active-color="hsl(171, 100%, 41%)"
+              active-color="hsl(171, 95%, 34%)"
               :star-size="15"
               :read-only="true"
               :show-rating="false"
@@ -26,12 +26,15 @@
           </client-only>
         </div>
         <div class="column is-12 has-text-centered">
-          <button class="button is-outlined is-primary">
+          <nuxt-link
+            :to="`${product.category}/${product.id}`"
+            class="button is-outlined is-primary"
+          >
             <span class="icon">
               <i class="fas fa-search"></i>
             </span>
             <span>View product</span>
-          </button>
+          </nuxt-link>
         </div>
       </div>
     </div>

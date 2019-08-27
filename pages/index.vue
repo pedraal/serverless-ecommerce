@@ -202,14 +202,10 @@ export default {
       return this.$store.getters["products/products"];
     },
     chairs() {
-      return this.$store.getters["products/products"].filter(
-        product => product.category === "chairs"
-      );
+      return this.products.filter(product => product.category === "chairs");
     },
     tables() {
-      return this.$store.getters["products/products"].filter(
-        product => product.category === "tables"
-      );
+      return this.products.filter(product => product.category === "tables");
     }
   },
   components: {
