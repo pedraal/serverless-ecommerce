@@ -33,7 +33,9 @@
         </tbody>
       </table>
       <div class="columns">
-        <div class="column is-6"></div>
+        <div class="column is-6">
+          <card-form></card-form>
+        </div>
         <div class="column is-6">
           <div class="level is-mobile">
             <div class="level-left">
@@ -59,7 +61,6 @@
               </div>
             </div>
           </div>
-          <button class="button is-primary is-outlined">Empty cart</button>
         </div>
       </div>
     </div>
@@ -71,7 +72,12 @@
 </template>
 
 <script>
+import CardForm from "@/components/CardForm";
+
 export default {
+  components: {
+    CardForm
+  },
   computed: {
     cart() {
       return this.$store.getters["cart/cart"];
@@ -87,6 +93,9 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.container {
+  min-height: 300px;
+}
 h2.title {
   margin-bottom: 40px;
 }
