@@ -27,23 +27,6 @@
       <button class="button" @click="pay" :disabled="!complete || !stripeEmail">Pay with credit card</button>
       <button class="button is-primary is-outlined" @click="emptyCart">Empty cart</button>
     </div>
-
-    <div v-else class="statussubmit">
-      <div v-if="cartUIStatus === 'failure'">
-        <h3>Oh No!</h3>
-        <p>Something went wrong!</p>
-        <button @click="clearCart">Please try again</button>
-      </div>
-
-      <div v-else-if="cartUIStatus === 'loading'" class="loadcontain">
-        <h4>Please hold, we're filling up your cart with goodies</h4>
-        <p>Placeholder loader</p>
-      </div>
-
-      <div v-else-if="cartUIStatus === 'success'" class="loadcontain">
-        <h4>Success!</h4>
-      </div>
-    </div>
   </div>
 </template>
 

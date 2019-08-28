@@ -3,7 +3,7 @@ import uuidv1 from "uuid/v1"
 
 export const state = () => ({
   cart: [],
-  cartUIStatus: "idle"
+  cartUIStatus: "success"
 })
 
 export const mutations = {

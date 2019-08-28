@@ -9,13 +9,12 @@
       <loader-anim />
     </div>
 
-    <div v-else-if="cartUIStatus === 'success'" class="success">
-      <h2>Success!</h2>
+    <div v-else-if="cartUIStatus === 'success'" class="has-text-centered">
+      <h2 class="title has-text-centered">Success!</h2>
       <p>Thank you for your purchase. You'll be receiving your items in 4 business days.</p>
+      <br />
       <p>Forgot something?</p>
-      <button class="pay-with-stripe">
-        <nuxt-link exact to="/">Back to Home</nuxt-link>
-      </button>
+      <nuxt-link exact to="/" class="button is-primary is-outlined">Back to Home</nuxt-link>
     </div>
     <div v-else-if="cartUIStatus === 'failure'">
       <p
