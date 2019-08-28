@@ -1,20 +1,27 @@
 <template>
   <div class="container">
-    <cart-table />
+    <cart-steps />
+    <cart-display />
   </div>
 </template>
 
 <script>
-import CartTable from "@/components/CartTable";
+import CartDisplay from "@/components/CartDisplay";
+import CartSteps from "@/components/CartSteps";
 export default {
   components: {
-    CartTable
+    CartDisplay,
+    CartSteps
   }
 };
 </script>
 
 <style lang="scss" scoped>
-.container {
-  min-height: 30vh;
+.h-separator {
+  width: 80%;
+  display: block;
+  margin: 20px auto;
+  height: 1px;
+  background: #b9b4b4;
 }
 </style>

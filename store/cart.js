@@ -1,5 +1,6 @@
 export const state = () => ({
-  cart: []
+  cart: [],
+  cartUIStatus: "idle"
 })
 
 export const mutations = {
@@ -15,6 +16,9 @@ export const mutations = {
 export const getters = {
   cart: state => {
     return state.cart
+  },
+  cartUIStatus: state => {
+    return state.cartUIStatus
   },
   cartCount: state => {
     if (!state.cart.length) return 0

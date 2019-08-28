@@ -59,6 +59,7 @@
               </div>
             </div>
           </div>
+          <button class="button is-primary is-outlined">Empty cart</button>
         </div>
       </div>
     </div>
@@ -111,5 +112,8 @@ td {
       }
     }
   }
+}
+.button {
+  margin: 10px 0;
 }
 </style>
