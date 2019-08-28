@@ -17,13 +17,20 @@
 
       <p class="level-item has-text-centered">
         <nuxt-link tag="a" to="/cart" active-class="active">Cart</nuxt-link>
+        <span class="cart-count tag is-rounded is-dark" v-if="cartCount !== 0">{{cartCount}}</span>
       </p>
     </nav>
   </div>
 </template>
 
 <script>
-export default {};
+export default {
+  computed: {
+    cartCount() {
+      return this.$store.getters["cart/cartCount"];
+    }
+  }
+};
 </script>
 
 <style lang="scss" scoped>
@@ -53,6 +60,12 @@ nav {
 
   .separator {
     color: #b9b4b4;
+  }
+
+  .cart-count {
+    font-size: 10px;
+    position: relative;
+    bottom: 10px;
   }
 }
 @media screen and (max-width: 1024px) {

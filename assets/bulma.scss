@@ -2,6 +2,8 @@
 
 //Bulma customization goes here
 $footer-background-color: #2e2d2d;
+$table-background-color: #e0dfe5;
+$table-cell-border: 1px solid #b9b4b4;
 $primary: hsl(171, 95%, 34%);
 @import "~bulma/sass/utilities/_all.sass";
 @import "~bulma/bulma";

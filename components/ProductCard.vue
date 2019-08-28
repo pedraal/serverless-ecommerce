@@ -10,7 +10,7 @@
         <div class="column is-12">
           <div class="has-text-centered">
             <p class="title is-4 is-uppercase has-text-weight-light">{{product.name}}</p>
-            <p class="subtitle is-6 has-text-weight-bold">{{product.price}}€</p>
+            <p class="subtitle is-6 has-text-weight-bold">{{product.price | euro}}</p>
           </div>
         </div>
         <div class="column is-12">
