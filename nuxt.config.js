@@ -4,9 +4,8 @@ let dynamicRoutes = async () => {
   const products = data.products
   let routes = []
   products.forEach(product => {
-    routes.push(`${product.category}/${product.id}`)
+    routes.push(`/${product.category}/${product.id}`)
   })
-  console.log(routes)
   return routes
 }
 
