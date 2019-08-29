@@ -14,7 +14,7 @@
       <label for="card" class="heading">Credit Card</label>
       <small>
         Test using this credit card:
-        <span class="cc-number">4242 4242 4242 4242</span>, and enter any 5 digits for the zip code
+        <span class="cc-number has-text-weight-bold">4242 4242 4242 4242</span>, and enter any 5 digits for the zip code
       </small>
       <card
         class="stripe-card"
