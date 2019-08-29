@@ -1,3 +1,15 @@
+import data from "./data/products.js"
+
+let dynamicRoutes = async () => {
+  const products = data.products
+  let routes = []
+  products.forEach(product => {
+    routes.push(`${product.category}/${product.id}`)
+  })
+  console.log(routes)
+  return routes
+}
+
 export default {
   mode: "universal",
   /*
@@ -53,5 +65,8 @@ export default {
      ** You can extend webpack config here
      */
     extend(config, ctx) {}
+  },
+  generate: {
+    routes: dynamicRoutes
   }
 }
