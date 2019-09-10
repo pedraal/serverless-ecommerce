@@ -4,9 +4,9 @@
       <div class="container">
         <h1 class="title is-size-2 has-text-centered has-text-weight-light">
           Welcome on our
-          <span class="is-size-1">Design showroom</span>
+          <span class="is-size-1">Showroom</span>
         </h1>
-        <h2 class="subtitle has-text-centered">since 2002</h2>
+        <h2 class="subtitle has-text-centered">Designer since 1992</h2>
         <div class="columns">
           <div class="column flex has-text-justified is-7">
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut libero inventore quod laudantium, distinctio dolores molestias saepe dolorum hic praesentium sunt, labore ea obcaecati. Porro doloribus amet molestias esse voluptate rem doloremque atque repudiandae corrupti est labore non, dicta soluta? Iste enim debitis impedit error voluptatibus eaque, repellat obcaecati blanditiis eos et molestias dolores corporis reprehenderit, odit aliquam iusto praesentium saepe alias autem dicta sapiente quis. Repudiandae nostrum sit neque culpa praesentium voluptates repellendus voluptatem pariatur. Odio officia dolor dolores officiis velit, excepturi quae nulla! Natus sed, voluptates corporis veniam porro aspernatur tenetur necessitatibus illum pariatur quis quaerat saepe ut.</p>
